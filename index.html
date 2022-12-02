@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myVerde</title>
+    <link rel="stylesheet" type="text/css" href="deco.css">
+    <link rel="stylesheet" href="machine.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav">
+            <i class="fa-solid fa-burger fa-2x"></i>
+            <li><a href="#" class="active">HOME</a></li>
+            <li><a href="#">OFFERS</a></li>
+            <li><a href="#">HOTWEEK</a></li>
+            <li><a href="#">RATINGS</a></li>
+            <li style="float: right; margin-right: 3%;">
+                <button class="call" id="call">+255 688 897 697</button>
+            </li>
+            <!--<div class="contact">+255 626881232</div>-->
+        </ul>
+
+        <div id="slideset">
+            <img src="image/burger-10965.png" alt="Cheesy Burger" width="410px" class="img">
+            <img src="image/pngwing.com (5).png" alt="Hot Burger" class="img">
+            <img src="image/burger-10956.png" alt="Chilli Burger" class="img">
+        </div>
+
+        <div class="intro">
+            <h1>We make the double<br>cheesy burger...</h1>
+
+
+
+            <h5>It's the newly deal this weeek with hot <br>cheesy burger in packgae.
+                Get your <b style="color: red;">-30%</b> off this week.
+            </h5>
+
+            <h3 class="flavours">Select your taste</h3>
+
+            <form action="">
+                <select name="flavours[]" class="custom-select" multiple>
+                    <option value="cheese">salad</option>
+                    <option value="cheese">cheese</i></option>
+                    <option value="cheese">onions</option>
+                    <option value="cheese">lettuce</option>
+                    <option value="cheese">chiles</option>
+                </select>
+            </form>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button" id="plus">
+                    <i class="fa-solid fa-heart-circle-plus"></i>
+                </button>
+                <input type="text" name="name" value="0" id="input">
+                <!--<span id="input">0</span>-->
+
+                <button class="minus-btn" type="button" name="button" id="minus">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+                <label for="at" class="at">@</label>
+                <label for="amount" class="amount">8,000.00</label>
+                <label for="sign" class="sign">/=</label>
+
+            </div>
+            <button class="order" id="book">BOOK NOW</button>
+        </div>
+    </div>
+    <script src="bev.js"></script>
+    <script src="clicks.js"></script>
+</body>
+
+</html>
